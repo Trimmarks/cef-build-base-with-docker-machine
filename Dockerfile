@@ -1,4 +1,4 @@
-FROM vivliostyle/cef-build-base
+FROM trimmarks/cef-build-base
 RUN set -x && \
     apt-get update && \
     apt-get install -y apt-transport-https ca-certificates curl software-properties-common && \
