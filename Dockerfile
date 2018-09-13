@@ -1,4 +1,4 @@
-FROM trimmarks/cef-build-base
+FROM trimmarks/cef-build-base:2.0
 RUN set -x && \
     apt-get update && \
     apt-get install -y apt-transport-https ca-certificates curl software-properties-common && \
